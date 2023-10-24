@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Flights</title>
+</head>
+<body>
+<a href='AddFlight.html' style='color:black'>New Flights</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; <a href='IndexFlight'style='color:black'>View All Flights</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;<a href='AdminDashboard.html'style='color:black'>Dashboard</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;<a href='Logout'style='color:black'>Log out</a> 
+<hr>
+<h1 style="text-align:center; width:100%">Add Flight</h1>
+
+<form style="text-align:center; width:100%;border: 2px solid black ;
+ background-color: skyblue;" name="formFlight" method="POST" action="AddFlightServlets">
+ 
+<p>
+	Flight Number  : <input  type="text" name="txtFno" placeholder="Enter Flight Number" required />
+ 	<br> <br>
+ 	Airline Name  : <input  type="text" name="txtAirL" placeholder="Enter Airline Name" required />
+ 	<br> <br>
+	Source Name  : <input  type="text" name="txtSource" placeholder="Enter Source Name" required />
+ 	<br> <br>
+ 	Destination  : <input  type="text" name="txtDest" placeholder="Enter Destination" required />
+ 	<br> <br>
+ 	Flight Price  : <input  type="text" name="txtPrice" placeholder="Enter Flight Price" required />
+ 	<br> <br>
+ 	Departure Date  : <input  type="text" name="txtDate" placeholder="Enter Departure Date" required />
+ 	<br> <br>
+ 	Departure Time : <input  type="text" name="txtTime" placeholder="Enter Departure Time" required />
+ 	<br> <br>
+ 	
+ 	<input type="submit" value="Add "/>
+</p>
+</form>
+</body>
+</html>

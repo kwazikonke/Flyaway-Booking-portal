@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Source&Destination</title>
+</head>
+<body>
+<a href='AddPlace.html' style='color:black'>New Place</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; <a href='IndexPlace'style='color:black'>View All Places</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;<a href='AdminDashboard.html'style='color:black'>Dashboard</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;<a href='Logout'style='color:black'>Log out</a> 
+<hr>
+<h1 style="text-align:center; width:100%">Add Source & Destination</h1>
+
+<form style="text-align:center; width:100%;border: 2px solid black ;
+ background-color: skyblue;" name="formFlight" method="POST" action="AddPlaceServlets">
+ 
+<p>
+	Place Number  : <input  type="text" name="txtPlaceName" placeholder="Enter Place Name" required />
+ 	<br> <br>
+ 	City Name  : <input  type="text" name="txtCity" placeholder="Enter City Name" required />
+ 	<br> <br>
+	Airport Name  : <input  type="text" name="txtAirport" placeholder="Enter Airport Name" required />
+ 	<br> <br>
+ 	<input type="submit" value="Add "/>
+</p>
+</form>
+</body>
+</html>

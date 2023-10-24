@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Dashboard</title>
+</head>
+<body>
+	
+ <h2 align="center"><strong>Welcome to our Airline Booking Portal</strong></h2>
+  <h3 align="center"><strong><u>Search according to your availability</u></strong></h3>
+  
+ <form style="text-align:center; width:100%;border: 2px solid black ;
+ background-color: skyblue;" name="formFlight" method="POST" action="SearchServlets">
+ 
+<p>
+	Depature Date: <input  type="text" name="txtdepDate" placeholder="Enter Depature Date" required />
+ 	<br> <br>
+ 	Depature Place: <input  type="text" name="txtsource" placeholder="Enter Depature Place" required />
+ 	<br> <br>
+	Destination: <input  type="text" name="txtdestination" placeholder="Enter Destination Name" required />
+ 	<br> <br>
+ 	<input type="submit" value="Search Flight"/>
+</p>
+</form>
+</body>
+</html>
